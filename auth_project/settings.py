@@ -140,6 +140,6 @@ AUTHENTICATION_BACKENDS = [
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'dummyforproject09@gmail.com'
-EMAIL_HOST_PASSWORD = 'lplq rewj qphj ykqk'
+EMAIL_HOST_USER = 'Your-Email-id'
+EMAIL_HOST_PASSWORD = 'Enter-your-security-code'
 EMAIL_USE_TLS = True
