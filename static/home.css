@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(227, 204, 118);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60% ;
+    height: 40%;
+    margin-top: 140px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.inner-card-1, .inner-card-2 {
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.inner-card-2 div {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+.logout-button {
+    margin: 3px;
+    padding: 8px;
+    margin-right: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(51, 67, 241);
+
+    &:hover {
+        color: black;
+        background-color: rgb(203, 203, 249);
+    }
+}
